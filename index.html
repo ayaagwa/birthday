@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eid's Birthday.exe 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <main class="terminal">
+    <header class="bar">
+      <div class="dots"><i></i><i></i><i></i></div>
+      <span>Birthday.exe</span>
+      <span class="lock">♥</span>
+    </header>
+
+    <section class="screen intro">
+      <div class="code">
+        <p><span class="num">01</span><span class="comment">// Birthday Program</span></p>
+        <p><span class="num">02</span><span class="comment">// Created especially for someone special</span></p>
+        <p><span class="num">03</span><span class="comment">// Today is a very important day...</span></p>
+        <br>
+        <p><span class="num">04</span><span class="kw">const</span> name = <span class="str">"Eid"</span>;</p>
+        <p><span class="num">05</span><span class="kw">const</span> birthday = <span class="bool">true</span>;</p>
+        <p><span class="num">06</span><span class="kw">const</span> happiness = <span class="str">"∞"</span>;</p>
+        <p><span class="num">07</span><span class="kw">const</span> success = <span class="str">"∞"</span>;</p>
+        <br>
+        <p><span class="num">08</span><span class="kw">if</span> (birthday) {</p>
+        <p><span class="num">09</span>&nbsp;&nbsp;runBirthdayProgram();</p>
+        <p><span class="num">10</span>}</p>
+      </div>
+
+      <div class="welcome">
+        <div class="tag">SYSTEM READY ✓</div>
+        <h1><span>Eid's</span><br>Birthday.exe 🎉</h1>
+        <p>في رسالة صغيرة معمولالك مخصوص...</p>
+        <button id="runBtn">▶ RUN PROGRAM</button>
+        <small>Click to start the surprise</small>
+      </div>
+    </section>
+
+    <section class="screen loading hidden" id="loading">
+      <div class="loader-box">
+        <p>&gt; Program started...</p>
+        <p>&gt; Loading special memories...</p>
+        <p>&gt; Preparing something amazing...</p>
+        <div class="loading-title">Loading... <b id="percent">0%</b></div>
+        <div class="progress"><div id="progressBar"></div></div>
+        <p id="loadingText">&gt; Almost ready...</p>
+      </div>
+      <div class="cake">🎂</div>
+    </section>
+
+    <section class="screen greeting hidden" id="greeting">
+      <div class="photo-wrap">
+        <img src="eid.jpg" alt="Eid">
+        <div class="photo-caption">A special memory 📸</div>
+      </div>
+
+      <div class="message">
+        <div class="mini-code">&lt;birthday_message&gt;</div>
+        <h2>Happy Birthday, Eid! <span>♥</span></h2>
+
+        <p>كل سنة وانت طيب وبخير يارب ❤️</p>
+        <p>سنين العمر كلها وانت في سعادة وراحة بال، ومبسوط دايمًا ووسط أهلك وحبايبك.</p>
+        <p>أتمنى السنة دي تكون بداية خير ليك، وتحقق فيها كل الأحلام والحاجات اللي نفسك فيها، وتشوف نتيجة تعبك في كل حاجة بتتمناها.</p>
+        <p>يارب أيامك الجاية تكون أحلى، مليانة نجاح وفرحة وذكريات حلوة، وتفضل دايمًا بخير ومطمن ومبسوط ❤️</p>
+
+        <div class="wish">
+          <strong>وأهم حاجة...</strong>
+          <br>
+          ربنا يكتبلك في السنة الجديدة حاجات أحلى بكتير من اللي نفسك فيها ✨
+        </div>
+
+        <div class="mini-code">&lt;/birthday_message&gt;</div>
+      </div>
+    </section>
+
+    <section class="screen final hidden" id="final">
+      <div class="output">
+        <p>&gt; Finalizing...</p>
+        <p>&gt; Sending all the best wishes...</p>
+        <p>&gt; Program completed successfully ✓</p>
+        <div class="output-card">
+          <h3>OUTPUT:</h3>
+          <p>🎯 New opportunities</p>
+          <p>🚀 Great achievements</p>
+          <p>❤️ Lots of happiness</p>
+          <p>✨ Beautiful memories</p>
+        </div>
+      </div>
+
+      <div class="success">
+        <div class="success-icon">✓</div>
+        <h2>Program Completed Successfully!</h2>
+        <div class="big">Happy Birthday, Eid! ❤️</div>
+        <p>Enjoy your day to the fullest! 🎂🎈</p>
+        <button id="replayBtn">↻ RUN AGAIN</button>
+      </div>
+    </section>
+
+    <footer>Made with <span>♥</span> especially for you</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
